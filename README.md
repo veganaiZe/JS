@@ -45,6 +45,8 @@ _A list of resources primarily for classical Javascript ≤ ES 5.1 — its best 
 
 * DEVTOOLS
   - [`console`](https://developer.mozilla.org/en-US/docs/Web/API/console) - mdn
+    - [`console.assert()`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert_static)
+    - [`console.log()`](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
   - [Browser Developer Console](https://blog.teamtreehouse.com/mastering-developer-tools-console) - treehouse
   - [Chromium Dev Tools](https://developer.chrome.com/docs/devtools/)
     - [keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/)
