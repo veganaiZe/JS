@@ -175,3 +175,12 @@ string.toLowerCase()  // returns new lowercased string
 string.toUpperCase()  // returns new uppercased string
 string.trim()  // returns new string with whitespace removed at both ends; ES5
 ```
+
+
+### console
+```js
+console.assert(assertion, val, ..)       // console error if false w/ optional values; FF 28, Chrome 2; Node 10
+              (assertion, str, sub, ..)  // console error if false w/ string w/ optional substitutions
+console.log(val, ..)       // log value(s) to console w/ separation between each; FF 4
+           (str, sub, ..)  // log string to console w/ optional string substitutions
+```
