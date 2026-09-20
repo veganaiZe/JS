@@ -77,6 +77,38 @@ try { throw 'some error' } catch(error) { console.error(error) } finally { conso
 ```
 
 
+### Math
+```js
+Math.E
+Math.LN10
+Math.LN2
+Math.LOG10E
+Math.LOG2E
+Math.PI
+Math.SQRT1_2
+Math.SQRT2
+
+Math.abs(n)
+Math.acos(n)
+Math.asin(n)
+Math.atan(n)
+Math.atan2(n)
+Math.ceil(n)
+Math.cos(n)
+Math.exp(n)
+Math.floor(n)
+Math.log(n)
+Math.max(n, ..)  // returns NaN if no args; only 2 args < ES3
+Math.min(n, ..)  // returns NaN if no args; only 2 args < ES3
+Math.pow(n, m)   // returns n to power of m
+Math.random()    // returns pseudo-random number between 0 and 1.0; js 1.1
+Math.round(n)    // returns n rounded to nearest integer
+Math.sin(n)
+Math.sqrt(n)
+Math.tan(n)
+```
+
+
 ### Number <sup>1.1</sup>
 
 ```js
@@ -93,7 +125,7 @@ Number.POSITIVE_INFINITY  // same as ES1 global `Infinity`
 number.toExponential(count)  // return string in exponential notation, with `count` (0-20) digits after decimal; rounded or zero-padded; ES3
 number.toFixed(count)    // return string with exactly `count` (0-20) digits after decimal; rounded or zero-padded; ES3
 number.toLocaleString()  // string formatted to local conventions; implementation-dependent; ES3
-number.toPrecision(n)  // string containing `n` (1-21) significant digits; fixed-point notation if possible; rounded or zero-padded; ES3
+number.toPrecision(n)    // string containing `n` (1-21) significant digits; fixed-point notation if possible; rounded or zero-padded; ES3
 number.toString(radix)   // returns number as string, using optional radix (2-36); default base 10
 ```
 
