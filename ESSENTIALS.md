@@ -4,6 +4,17 @@ Javascript Essentials
 _A JS quick reference minus most of the ES6+ pollution!_
 
 
+### Keywords <sup>ES5.1</sup>
+<table>
+<tr> <td>break</td>    <td>do</td>       <td>in</td>         <td>throw</td>     <td>while</td> </tr>
+<tr> <td>case</td>     <td>else</td>     <td>instanceof</td> <td>true</td>      <td>with</td>  </tr>
+<tr> <td>catch</td>    <td>false</td>    <td>new</td>        <td>try</td>                      </tr>
+<tr> <td>continue</td> <td>finally</td>  <td>null</td>       <td>typeof</td>                   </tr>
+<tr> <td>debugger</td> <td>for</td>      <td>return</td>     <td>undefined</td>                </tr>
+<tr> <td>default</td>  <td>function</td> <td>switch</td>     <td>var</td>                      </tr>
+<tr> <td>delete</td>   <td>if</td>       <td>this</td>       <td>void</td>                     </tr>
+</table>
+
 ### Operator Precedence
 
 |                     |                                  |
